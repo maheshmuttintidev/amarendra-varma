@@ -16,7 +16,7 @@
 }
 
 .threedlook:hover {
-  transform: translateY(50px) rotateX(10deg) scaleY(1.1) scaleX(1.2);
+  transform: translateY(-10px) rotateX(10deg) scaleY(1.1) scaleX(1.2);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-out;
 }
@@ -52,9 +52,8 @@
   height: 0;
   width: 0;
   position: absolute;
-  bottom: -12rem;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 5rem;
+  left: 80%;
 }
 
 @keyframes bounce {

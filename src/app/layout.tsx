@@ -16,13 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={comic.className}>
       <head />
-      <body>
-        <video className={styles.videoBackground} autoPlay loop muted>
-          <source src={"/bg-video.mp4"} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        {children}
-      </body>
+      <body className="bg-red-300 min-h-screen">{children}</body>
     </html>
   );
 }
